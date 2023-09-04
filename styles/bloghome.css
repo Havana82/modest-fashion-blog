@@ -106,11 +106,14 @@ li{
     width: 40vw;
 
 }
+.cover-caption{
+    text-align: center;
+}
 #cover-image{
     height: 30vh;
     width: 40vw;
     object-fit: cover;
-   align-self: center;
+    align-self: center;
     margin:  auto;
  
     
