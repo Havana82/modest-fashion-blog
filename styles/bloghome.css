@@ -1,0 +1,205 @@
+@import url("grid.css");
+@import url("layout.css");
+@import url("sidebar.css");
+
+
+html{
+    height: 140%;
+    background-color: rgb(20, 18, 18);
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    font-size: larger;
+}
+body{
+    height: 100%;
+}
+
+button{
+    background-color: lightgray;
+
+    border-radius: 15px;
+
+
+}
+
+.button{
+    margin: auto;
+    text-align: center;
+    color: navy;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+
+}
+
+
+li{
+    list-style: none;
+    color:white;
+
+}
+
+.blog-title{
+    font-family: splash;
+    color:tomato;
+    font-size: 44px;
+    margin: auto;
+    text-align: center;
+    margin:auto;
+    margin-top: 5vh;
+}
+.caption{
+    text-align: center;
+}
+.card{
+    border-radius: 20px;
+    width: 17vw;
+    margin: 10px;
+    height: 40vh;
+}
+.card:nth-child(2n+1){
+    background-color:darkcyan;
+}
+
+.card:nth-child(2n+2){
+    background-color:tomato;
+}
+.contact{
+    font-family: cursive ;
+    font-weight: bolder;
+    font-size: 34px;
+    color: darkcyan;
+    text-align: center;
+    margin: auto ;
+    margin-top:20vh;
+}
+.content{
+    width: 100%;
+    grid-area: right;
+    align-self: center;
+    margin: auto;
+    height: fit-content;
+    border-left: 2px solid gray;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.cover{
+    height: 30vh;
+    justify-content: center;
+    margin: 80px auto;
+    width: 40vw;
+
+}
+#cover-image{
+    height: 30vh;
+    width: 40vw;
+    object-fit: cover;
+   align-self: center;
+    margin:  auto;
+ 
+    
+}
+.details{
+
+    height: 50%;
+    width: 80%;
+    margin:auto;
+    align-self: center;
+
+}
+
+.dress-card{   width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 20px;
+
+    
+}
+
+
+footer{
+
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20vh;
+
+
+}
+
+
+
+h3{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media(max-width:500px){
+    .gridcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 50vw;
+    }
+    .card{
+        min-width: 37vw;
+    }
+    .side-bar{
+        display: none;
+    }
+    .content{
+        border: none;
+        align-self: center;
+        margin: auto;
+    
+    }
+    footer{
+        margin-top:150vh;
+    }
+    .cover{
+        width:60vw;
+        margin: 40px 0px;
+    
+    }
+    #cover-image{
+        width: 60vw;
+    
+    
+    }
+    
+}
+.paragraph{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+span{
+    color: whitesmoke;
+}
+
+
+

@@ -1,0 +1,28 @@
+.author{
+    grid-area: right;
+    margin: 30px;
+
+}
+
+
+.author-image{
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.author-info{
+    text-align: center;
+   
+}
+.author-facts{
+    text-align: center;
+    margin: auto;
+}
+.bio{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}

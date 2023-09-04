@@ -1,0 +1,51 @@
+@import url("structure.css");
+@import url("social.css");
+@import url("author.css");
+
+html{
+    height: 100%;}
+
+
+
+.heading{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: darkcyan;
+}
+
+#heading{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: darkcyan;
+    margin: auto;
+}
+
+.post{
+    grid-area: left;
+    margin: 40px;
+}
+
+@media(min-width:1500px){
+    #heading{
+        margin-right: 100px;
+    }
+}
+
+@media(max-width:500px){
+    .structure{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    }
+    .author{
+    margin-left: 100px;
+    }
+
+    .social-link{
+    margin: 10px;
+    }
+
+
+}

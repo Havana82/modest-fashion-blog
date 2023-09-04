@@ -1,0 +1,7 @@
+.side-bar{
+    height: 100%;
+    grid-area: left;
+    margin:10px;
+
+
+}
